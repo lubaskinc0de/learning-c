@@ -14,10 +14,11 @@ int main() {
     }
 
     switch (option) {
+        case 0:
         case 1: {
             printf("cat!");
             break;
-        }
+        } // сработает при 0 либо 1
         case 2: {
             printf("dog!");
             break;
